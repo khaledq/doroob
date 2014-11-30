@@ -36,3 +36,45 @@ input{height:45px!important;width: 100%!important;}
     padding-bottom:0;
 }
 .intro-message a{color:#ee9633;}
+
+@media (max-width : 1200px){
+    iframe{
+        min-height: 670px !important;
+    }
+}
+
+@media (max-width : 768px){
+    iframe{
+        min-height: 690px !important;
+    }
+    .h1-edit{
+        font-size: 30px;
+    }
+    .li-edit li{
+        font-size: 24px;
+    }
+}
+
+@media (max-width : 480px){
+    iframe{
+        min-height: 700px !important;
+    }
+    .h1-edit{
+        font-size: 24px;
+    }
+    .li-edit li{
+        font-size: 18px;
+    }
+}
+
+@media (max-width : 430px){
+    iframe{
+        min-height: 700px !important;
+    }
+    .h1-edit{
+        font-size: 24px;
+    }
+    .li-edit li{
+        font-size: 18px;
+    }
+}
